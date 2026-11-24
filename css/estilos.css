@@ -7,7 +7,7 @@
     --sena-verde: #39a900;/*toda variable inicia con -- el color esta en hexadecimal pero puede colocarlo en texto*/
     --sena-verde-oscuro: #2e8700;
     --sena-azul: #00324d;
-    --sidebar-ancho: 250px/*ancho del menu lateral px es la unidad de medida de css*/
+    --sidebar-ancho: 250px;/*ancho del menu lateral px es la unidad de medida de css*/
 }
 
 /* variables generales estilos que aplican a todas las paginas*/
@@ -35,9 +35,9 @@ body {/* afecta a todo el cuerpo de la pagina*/
     /*fondo con el mouse encima*/
     --bs-btn-hover-bg: var(--sena-verde-oscuro);
     /*borde con el mouse encima*/
-    --bs--btn--border-color: var(--sena-verde-oscuro);
+    --bs-btn-hover-border-color: var(--sena-verde-oscuro);
     /*texto mientras se hace clic */
-    --bs--btn--active-color: #fff;
+    --bs-btn-active-color: #fff;
     /*fondo mientras se hace clic */
     --bs-btn-active-bg: var(--sena-verde-oscuro);
     /*borde mientras de hace clic*/
@@ -53,7 +53,7 @@ body {/* afecta a todo el cuerpo de la pagina*/
     /*borde verde en lugar del azul de bootstrap*/
     border-color: var(--sena-verde);
     /* halo verde traslucido al rededor del campo*/
-    box-shadow: 0 0 0. 25rem rgba(57, 169, 0, .25);
+    box-shadow: 0 0 0.25rem rgba(57, 169, 0, .25);
     /*cierre de la regla*/
 }
 
@@ -218,7 +218,7 @@ la usara el registro que tiene mas campos*/
     /*sin borde general*/
     border: 0;
     /*excepto un franja verde a la izquierda*/
-    border-left: 4px solid var(var(--sena-verde));
+    border-left: 4px solid var(--sena-verde);
     /*anima  el movimiento y la sombra en 0.2 segundos*/
     transition: transform .2s, box-shadow .2s;
 }
